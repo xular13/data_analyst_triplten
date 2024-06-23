@@ -1,3 +1,66 @@
+# Objectives
+
+* Identify trends in revenue and profit over time.
+* Predict future revenue and profit using time-series forecasting techniques.
+* Uncover the most profitable categories, segments, regions, and countries.
+* Investigate the impact of seasonality and yearly trends on profit margins.
+
+## 2 Methodology
+
+### 2.1 Data Preparation
+
+#### 1. Data Collection:
+* Identify and gather data from all relevant tables within your database.
+* Specify the date ranges for your analysis.
+
+#### 2. Data Cleaning:
+* Examine data quality - address missing values, inconsistencies, and outliers.
+* Transform and format the data as needed for analysis (e.g., calculate derived fields).
+
+### 2.2 Exploratory Analysis
+
+#### 3. Descriptive Statistics:
+* Calculate summary statistics (mean, median, standard deviation) for revenue, profit, margins, and other relevant variables.
+
+#### 4. Visualization:
+Create visualizations to uncover patterns and relationships:
+* Line charts for revenue and profit trends.
+* Bar charts for comparing profitability across categories, segments, etc.
+* Scatterplots to explore potential correlations.
+
+### 2.3 In-Depth Analysis
+
+#### 5. Trend Analysis:
+* Calculate profit: `fact sales montly.sold.quantity * fact gross price.gross price * fact pre discount.pre invoice discount pct - fact sales montly.sold.quantity* fact manufacturing cost.manufacturing cost`
+* Analyze the trends for seasonality or other cyclical patterns for profit and revenue.
+
+#### 6. Profitability Analysis:
+* Calculate margin: `fact sales montly.sold.quantity * fact gross price.gross price - fact sales montly.sold.quantity* fact manufacturing cost.manufacturing cost`
+* Isolate the most profitable categories, segments, regions, and countries. Consider Pareto analysis for prioritization.
+* Examine margin fluctuation over time (due to seasonality or year-on-year change).
+
+#### 7. Correlation Analysis:
+* Calculate correlation coefficients to explore potential relationships between revenue, profit, and other related variables.
+
+### 2.4 Predictive Modeling
+
+#### 8. Model Selection:
+* Research suitable time-series forecasting models (e.g., ARIMA, SARIMA, Prophet, LSTM).
+
+#### 9. Model Development and Training:
+* Divide your data into training, validation and testing sets.
+* Train the selected models on the training set.
+
+#### 10. Model Evaluation:
+* Evaluate models performance on the validation set using metrics like MAE, RMSE, or MAPE.
+* Iterate on model selection and tuning to optimize accuracy.
+* Choose the best model.
+
+## Tools
+
+* Python, SQL, Tableau
+
+
 # Database Documentation
 
 Please find the description of all of the tables in the database below.
