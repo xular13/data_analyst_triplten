@@ -2,7 +2,7 @@
 
 **DATASET**
 
-[Dataset: /datasets/squirrel_diet.csv]
+Dataset: /datasets/squirrel_diet.csv
 
 Well done learning about seaborn and plotly. These libraries are extremely versatile with a wide range of functions and parameters. While we’ve only just scratched the surface, you should now be comfortable navigating both of these libraries for your future work, or personal projects. If you find yourself needing to do something beyond what has been covered, both libraries have great documentation of all of their functions.
 
@@ -10,7 +10,7 @@ For your final project we’ve provided you with a dataset and a figure. Your jo
 
 The dataset contains the results of a mock study where 100 red squirrels were given one of three different diets after weaning, and their full grown adult weights were recorded. The figure below displays the results of the study, and this is the figure that you need to recreate.
 
-![Study Results](Sprint 8 Data Visualization with Python/img/result.png)
+![Study Results](img/result.png)
 
 ## Project guidelines
 
